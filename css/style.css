@@ -61,7 +61,8 @@ footer {
 .card {
   border-radius: 0;
 }
-@media (max-width: 575px){
+
+@media screen and (max-width: 575px){
   #page-top {
     width: 40px;
     height: 40px;
@@ -73,9 +74,6 @@ footer {
     bottom: 20px;
     background-color: #FFA500;
   }
-}
-
-@media (max-width: 575px){
   #page-top a {
     display: inline-block;
     width: 100%;
